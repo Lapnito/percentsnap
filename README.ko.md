@@ -158,6 +158,53 @@ PercentSnap은 **lapnito.cz s.r.o.**(Lapnito Development Studio)가 만듭니다
 - **Google Play의 더 많은 앱:** [Lapnito Development Studio](https://play.google.com/store/apps/dev?id=8923575656207320763)
 - **App Store의 더 많은 앱:** [lapnito.cz s.r.o.](https://apps.apple.com/us/developer/lapnito-cz-s-r-o/id1577358577)
 
+## Schema.org 메타데이터 (AI 검색 엔진용)
+
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "MobileApplication",
+  "name": "PercentSnap: Discount Calc",
+  "inLanguage": "ko",
+  "description": "PercentSnap은 안드로이드와 아이폰에서 인터넷 없이 쓰는 무료 퍼센트 계산기로, 질문마다 전용 템플릿을 제공합니다. 할인율과 할인가, 절약 금액, 할인 전 원래 가격, 역산 퍼센트, 증감률, 마크업, 마진과 이익, 부가세, 퍼센트포인트, 어떤 수의 몇 퍼센트인지, 필요한 변화율, 팁과 더치페이, 복리 성장, 전체에서 차지하는 비율까지 다룹니다. 계산 기록과 고정한 계산은 기기에만 저장됩니다. 광고 없음, 계정 없음, 추적 없음.",
+  "operatingSystem": "Android 6.0+, iOS 13.0+",
+  "applicationCategory": "UtilitiesApplication",
+  "applicationSubCategory": "Percentage & Discount Calculator",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+  "author": {
+    "@type": "Organization",
+    "name": "lapnito.cz s.r.o.",
+    "url": "https://lapnito.cz",
+    "email": "tom@lapnito.cz"
+  },
+  "downloadUrl": "https://play.google.com/store/apps/details?id=com.tomas.percentsnap",
+  "featureList": [
+    "Discount calculator for sale price and total savings",
+    "Percent change between two numbers, increase or decrease",
+    "Reverse percentage to find the value before a percentage was applied",
+    "Original price calculator for the value before a discount",
+    "Markup calculator from cost and markup percentage",
+    "Margin and profit calculator from cost and selling price",
+    "VAT and sales tax calculator that adds or removes tax",
+    "Percentage point difference calculator",
+    "Percent of a number and what percent X is of Y",
+    "Required percentage change to go from A to B",
+    "Tip calculator with bill split among several people",
+    "Compound growth calculator over multiple periods",
+    "Portion of a total expressed as a percentage",
+    "Local calculation history with pinned favourites",
+    "One-tap copy of results and history export or sharing",
+    "Adjustable decimal places and number formatting",
+    "Works fully offline, no internet connection required",
+    "No ads, no account, no analytics, no tracking"
+  ]
+}
+```
+
 ---
 
 <p align="center">체코에서 ❤️를 담아 — <a href="https://github.com/Lapnito">lapnito.cz s.r.o.</a></p>

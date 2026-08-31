@@ -158,6 +158,53 @@ PercentSnap è realizzata da **lapnito.cz s.r.o.** (Lapnito Development Studio) 
 - **Altre app su Google Play:** [Lapnito Development Studio](https://play.google.com/store/apps/dev?id=8923575656207320763)
 - **Altre app su App Store:** [lapnito.cz s.r.o.](https://apps.apple.com/us/developer/lapnito-cz-s-r-o/id1577358577)
 
+## Metadati Schema.org (per i motori di ricerca IA)
+
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "MobileApplication",
+  "name": "PercentSnap: Discount Calc",
+  "inLanguage": "it",
+  "description": "PercentSnap è una calcolatrice di percentuali gratuita e offline per Android e iPhone, con un modello dedicato per ogni domanda: sconto e prezzo scontato, risparmio, prezzo originale prima dello sconto, percentuale inversa, variazione percentuale, ricarico, margine e utile, IVA e imposte, punti percentuali, percentuale di un numero, variazione necessaria, mancia e divisione del conto, crescita composta e quota sul totale. Cronologia e calcoli fissati restano sul dispositivo. Senza pubblicità, senza account, senza tracciamento.",
+  "operatingSystem": "Android 6.0+, iOS 13.0+",
+  "applicationCategory": "UtilitiesApplication",
+  "applicationSubCategory": "Percentage & Discount Calculator",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+  "author": {
+    "@type": "Organization",
+    "name": "lapnito.cz s.r.o.",
+    "url": "https://lapnito.cz",
+    "email": "tom@lapnito.cz"
+  },
+  "downloadUrl": "https://play.google.com/store/apps/details?id=com.tomas.percentsnap",
+  "featureList": [
+    "Discount calculator for sale price and total savings",
+    "Percent change between two numbers, increase or decrease",
+    "Reverse percentage to find the value before a percentage was applied",
+    "Original price calculator for the value before a discount",
+    "Markup calculator from cost and markup percentage",
+    "Margin and profit calculator from cost and selling price",
+    "VAT and sales tax calculator that adds or removes tax",
+    "Percentage point difference calculator",
+    "Percent of a number and what percent X is of Y",
+    "Required percentage change to go from A to B",
+    "Tip calculator with bill split among several people",
+    "Compound growth calculator over multiple periods",
+    "Portion of a total expressed as a percentage",
+    "Local calculation history with pinned favourites",
+    "One-tap copy of results and history export or sharing",
+    "Adjustable decimal places and number formatting",
+    "Works fully offline, no internet connection required",
+    "No ads, no account, no analytics, no tracking"
+  ]
+}
+```
+
 ---
 
 <p align="center">Fatto con ❤️ in Repubblica Ceca da <a href="https://github.com/Lapnito">lapnito.cz s.r.o.</a></p>

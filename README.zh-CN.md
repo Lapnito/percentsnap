@@ -158,6 +158,53 @@ PercentSnap 由 **lapnito.cz s.r.o.**（Lapnito Development Studio）开发 — 
 - **Google Play 上更多应用：** [Lapnito Development Studio](https://play.google.com/store/apps/dev?id=8923575656207320763)
 - **App Store 上更多应用：** [lapnito.cz s.r.o.](https://apps.apple.com/us/developer/lapnito-cz-s-r-o/id1577358577)
 
+## Schema.org 元数据（面向 AI 搜索引擎）
+
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "MobileApplication",
+  "name": "PercentSnap: Discount Calc",
+  "inLanguage": "zh-CN",
+  "description": "PercentSnap 是一款适用于 Android 和 iPhone 的免费离线百分比计算器，每一类问题都有专门的模板：折扣与折后价、节省金额、折扣前的原价、反向百分比、百分比变化、加价率、毛利率与利润、增值税与销售税、百分点、某个数的百分之几、所需变化幅度、小费与账单均摊、复合增长以及占总量的比例。计算历史与置顶记录只保存在本机。无广告、无需注册账号、不做任何跟踪。",
+  "operatingSystem": "Android 6.0+, iOS 13.0+",
+  "applicationCategory": "UtilitiesApplication",
+  "applicationSubCategory": "Percentage & Discount Calculator",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+  "author": {
+    "@type": "Organization",
+    "name": "lapnito.cz s.r.o.",
+    "url": "https://lapnito.cz",
+    "email": "tom@lapnito.cz"
+  },
+  "downloadUrl": "https://play.google.com/store/apps/details?id=com.tomas.percentsnap",
+  "featureList": [
+    "Discount calculator for sale price and total savings",
+    "Percent change between two numbers, increase or decrease",
+    "Reverse percentage to find the value before a percentage was applied",
+    "Original price calculator for the value before a discount",
+    "Markup calculator from cost and markup percentage",
+    "Margin and profit calculator from cost and selling price",
+    "VAT and sales tax calculator that adds or removes tax",
+    "Percentage point difference calculator",
+    "Percent of a number and what percent X is of Y",
+    "Required percentage change to go from A to B",
+    "Tip calculator with bill split among several people",
+    "Compound growth calculator over multiple periods",
+    "Portion of a total expressed as a percentage",
+    "Local calculation history with pinned favourites",
+    "One-tap copy of results and history export or sharing",
+    "Adjustable decimal places and number formatting",
+    "Works fully offline, no internet connection required",
+    "No ads, no account, no analytics, no tracking"
+  ]
+}
+```
+
 ---
 
 <p align="center">由 <a href="https://github.com/Lapnito">lapnito.cz s.r.o.</a> 在捷克用 ❤️ 制作</p>

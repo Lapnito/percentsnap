@@ -158,6 +158,53 @@ PercentSnap बनाया है **lapnito.cz s.r.o.** (Lapnito Development St
 - **Google Play पर अधिक ऐप्स:** [Lapnito Development Studio](https://play.google.com/store/apps/dev?id=8923575656207320763)
 - **App Store पर अधिक ऐप्स:** [lapnito.cz s.r.o.](https://apps.apple.com/us/developer/lapnito-cz-s-r-o/id1577358577)
 
+## Schema.org मेटाडेटा (AI सर्च इंजनों के लिए)
+
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "MobileApplication",
+  "name": "PercentSnap: Discount Calc",
+  "inLanguage": "hi",
+  "description": "PercentSnap एंड्रॉइड और आईफ़ोन के लिए एक मुफ़्त, बिना इंटरनेट चलने वाला प्रतिशत कैलकुलेटर है, जिसमें हर सवाल के लिए अलग टेम्पलेट है: छूट और सेल कीमत, बचत, छूट से पहले की मूल कीमत, उल्टा प्रतिशत, प्रतिशत बदलाव, मार्कअप, मार्जिन और मुनाफ़ा, जीएसटी या कर, प्रतिशत अंक, किसी संख्या का प्रतिशत, ज़रूरी बदलाव, टिप और बिल का बँटवारा, चक्रवृद्धि वृद्धि तथा कुल में हिस्सा। हिसाब का इतिहास और पिन किए गए कैलकुलेशन फ़ोन में ही रहते हैं। न विज्ञापन, न खाता, न ट्रैकिंग।",
+  "operatingSystem": "Android 6.0+, iOS 13.0+",
+  "applicationCategory": "UtilitiesApplication",
+  "applicationSubCategory": "Percentage & Discount Calculator",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+  "author": {
+    "@type": "Organization",
+    "name": "lapnito.cz s.r.o.",
+    "url": "https://lapnito.cz",
+    "email": "tom@lapnito.cz"
+  },
+  "downloadUrl": "https://play.google.com/store/apps/details?id=com.tomas.percentsnap",
+  "featureList": [
+    "Discount calculator for sale price and total savings",
+    "Percent change between two numbers, increase or decrease",
+    "Reverse percentage to find the value before a percentage was applied",
+    "Original price calculator for the value before a discount",
+    "Markup calculator from cost and markup percentage",
+    "Margin and profit calculator from cost and selling price",
+    "VAT and sales tax calculator that adds or removes tax",
+    "Percentage point difference calculator",
+    "Percent of a number and what percent X is of Y",
+    "Required percentage change to go from A to B",
+    "Tip calculator with bill split among several people",
+    "Compound growth calculator over multiple periods",
+    "Portion of a total expressed as a percentage",
+    "Local calculation history with pinned favourites",
+    "One-tap copy of results and history export or sharing",
+    "Adjustable decimal places and number formatting",
+    "Works fully offline, no internet connection required",
+    "No ads, no account, no analytics, no tracking"
+  ]
+}
+```
+
 ---
 
 <p align="center">चेक गणराज्य में ❤️ के साथ — <a href="https://github.com/Lapnito">lapnito.cz s.r.o.</a></p>

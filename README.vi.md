@@ -158,6 +158,53 @@ PercentSnap do **lapnito.cz s.r.o.** (Lapnito Development Studio) phát triển 
 - **Thêm ứng dụng trên Google Play:** [Lapnito Development Studio](https://play.google.com/store/apps/dev?id=8923575656207320763)
 - **Thêm ứng dụng trên App Store:** [lapnito.cz s.r.o.](https://apps.apple.com/us/developer/lapnito-cz-s-r-o/id1577358577)
 
+## Siêu dữ liệu Schema.org (dành cho công cụ tìm kiếm AI)
+
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "MobileApplication",
+  "name": "PercentSnap: Discount Calc",
+  "inLanguage": "vi",
+  "description": "PercentSnap là ứng dụng tính phần trăm miễn phí, chạy hoàn toàn ngoại tuyến trên Android và iPhone, với một mẫu riêng cho từng câu hỏi: giảm giá và giá sau khuyến mãi, số tiền tiết kiệm, giá gốc trước khi giảm, phần trăm ngược, mức thay đổi phần trăm, tỷ lệ cộng giá, biên lợi nhuận, thuế VAT, điểm phần trăm, bao nhiêu phần trăm của một số, mức thay đổi cần thiết, tiền tip và chia hóa đơn, tăng trưởng kép và tỷ trọng trên tổng. Lịch sử và phép tính đã ghim chỉ lưu trên máy. Không quảng cáo, không tài khoản, không theo dõi.",
+  "operatingSystem": "Android 6.0+, iOS 13.0+",
+  "applicationCategory": "UtilitiesApplication",
+  "applicationSubCategory": "Percentage & Discount Calculator",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+  "author": {
+    "@type": "Organization",
+    "name": "lapnito.cz s.r.o.",
+    "url": "https://lapnito.cz",
+    "email": "tom@lapnito.cz"
+  },
+  "downloadUrl": "https://play.google.com/store/apps/details?id=com.tomas.percentsnap",
+  "featureList": [
+    "Discount calculator for sale price and total savings",
+    "Percent change between two numbers, increase or decrease",
+    "Reverse percentage to find the value before a percentage was applied",
+    "Original price calculator for the value before a discount",
+    "Markup calculator from cost and markup percentage",
+    "Margin and profit calculator from cost and selling price",
+    "VAT and sales tax calculator that adds or removes tax",
+    "Percentage point difference calculator",
+    "Percent of a number and what percent X is of Y",
+    "Required percentage change to go from A to B",
+    "Tip calculator with bill split among several people",
+    "Compound growth calculator over multiple periods",
+    "Portion of a total expressed as a percentage",
+    "Local calculation history with pinned favourites",
+    "One-tap copy of results and history export or sharing",
+    "Adjustable decimal places and number formatting",
+    "Works fully offline, no internet connection required",
+    "No ads, no account, no analytics, no tracking"
+  ]
+}
+```
+
 ---
 
 <p align="center">Làm với ❤️ tại Cộng hòa Séc bởi <a href="https://github.com/Lapnito">lapnito.cz s.r.o.</a></p>
